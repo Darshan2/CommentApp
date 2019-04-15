@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    tools:context="demo.android.com.simpson.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="FireBase Authentification and Access"
+        android:layout_marginBottom="25sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/name_ET"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter PassWord"
+        android:id="@+id/password_ET"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/signin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="sign in"
+        android:onClick="onClickSignIn"/>
+
+    <Button
+        android:id="@+id/comment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="comment"
+        android:onClick="onClickComment"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SignIn info"
+        android:textSize="25sp"
+        android:id="@+id/info_TV"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="remte confg message"
+        android:id="@+id/remoteField"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+</LinearLayout>

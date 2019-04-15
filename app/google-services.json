@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "869072751019",
+    "firebase_url": "https://simpson-ad509.firebaseio.com",
+    "project_id": "simpson-ad509",
+    "storage_bucket": "simpson-ad509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869072751019:android:834a1d8f7ae0de14",
+        "android_client_info": {
+          "package_name": "demo.android.com.simpson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869072751019-s17eail1efrrtfv7jhsnu3rn3rv7jm11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpJMhIfd0AZxX6YhV7gtZl0sOPTOEb0ms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

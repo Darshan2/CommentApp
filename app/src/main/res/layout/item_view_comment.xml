@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/root_view"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/commentId_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="comment_id"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/commentPostedTime_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="12sp"-->
+        <!--android:text="time"/>-->
+
+    <TextView
+        android:id="@+id/parentCommentId_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="parent id"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/user_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20sp"-->
+        <!--android:gravity="center"/>-->
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="comment body"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/replay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/add_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:text="comment"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

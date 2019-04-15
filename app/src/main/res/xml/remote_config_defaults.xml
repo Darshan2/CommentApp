@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>widget_name</key>
+        <value>TextView</value>
+    </entry>
+
+    <entry>
+        <key>forms</key>
+        <value>dummy form</value>
+    </entry>
+
+    <entry>
+        <key>vip_design</key>
+        <value>false</value>
+    </entry>
+
+</defaultsMap>
